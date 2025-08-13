@@ -8,30 +8,30 @@ import { Component } from '@angular/core';
 })
 export class TerceiroComponente {
 
-//   // Varialvel de imagem.
-//   imagem:string = 'Barcelona.png';
-
-//   //Função para alterar imagem
-//   alterarImagem(){
-
-//   if(this.imagem === 'Barcelona.png'){
-//     this.imagem = 'saopaulo.png';
-//   }else{this.imagem = 'Barcelona.png'}
-
-//   }
-
-// }
-
- // Varialvel de imagem.
-  imagemtwo:string = 'sol.jpg';
+  // Varialvel de imagem.
+  imagem:string = 'Barcelona.png';
 
   //Função para alterar imagem
-  alterarImagemtwo(){
+  alterarImagem(){
 
-  if(this.imagemtwo === 'sol.jpg'){
-    this.imagemtwo = 'lua.jpg';
-  }else{this.imagemtwo = 'sol.jpg'}
+  if(this.imagem === 'Barcelona.png'){
+    this.imagem = 'saopaulo.png';
+  }else{this.imagem = 'Barcelona.png'}
 
   }
+
 }
+
+//  // Varialvel de imagem.
+//   imagemtwo:string = 'sol.jpg';
+
+//   //Função para alterar imagem
+//   alterarImagemtwo(){
+
+//   if(this.imagemtwo === 'sol.jpg'){
+//     this.imagemtwo = 'lua.jpg';
+//   }else{this.imagemtwo = 'sol.jpg'}
+
+//   }
+// }
 
